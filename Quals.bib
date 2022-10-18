@@ -1,0 +1,405 @@
+@article{Alizadeh:2014hs,
+  title = {{{CONGA}}: {{Distributed}} Congestion-Aware Load Balancing for Datacenters},
+  author = {Alizadeh, M and Edsall, T and Dharmapurikar, S},
+  year = {2014},
+  journal = {ACM SIGCOMM \ldots},
+  doi = {10.1145/2619239.2626316},
+  url = {http://dl.acm.org/citation.cfm?id=2626316},
+  abstract = {... SIGCOMM'14, August 17\textendash 22, 2014, Chicago, IL, USA. Copyright 2014 ACM 978-1-4503-2836-4/14/08 ...15.00. http://dx.doi.org/ 10.1145 / 2619239.2626316 . to paths, hash collisions can cause significant imbalance if there are a few large flows. ...},
+  date-added = {2017-03-19T21:48:25GMT},
+  date-modified = {2017-03-21T17:38:10GMT},
+  local-url = {file://localhost/Users/bspang/Dropbox/Library.papers3/Files/D2/D23F2BDC-A650-465A-9909-FDF9EF0745E7.pdf},
+  rating = {0},
+  uri = {papers3://publication/doi/10.1145/2619239.2626316},
+  file = {/Users/bspang/Zotero/storage/9JLYPS2D/Alizadeh et al_2014_CONGA.pdf}
+}
+
+@article{Anonymous:2010gv,
+  title = {Data Center {{TCP}} ({{DCTCP}}).},
+  author = {Alizadeh, Mohammad and Greenberg, Albert G and Maltz, David A and Padhye, Jitendra and Patel, Parveen and Prabhakar, Balaji and Sengupta, Sudipta and Sridharan, Murari},
+  year = {2010},
+  journal = {SIGCOMM},
+  pages = {63},
+  publisher = {{ACM Press}},
+  location = {New York, New York, USA},
+  doi = {10.1145/1851182.1851192},
+  url = {http://portal.acm.org/citation.cfm?doid=1851182.1851192},
+  date-added = {2018-11-12T18:54:36GMT},
+  date-modified = {2019-08-09T04:01:24GMT},
+  isbn = {9781450302012},
+  local-url = {file://localhost/Users/bspang/Dropbox/Library.papers3/Files/C3/C336A039-BB5E-4A72-8DF1-D2741289F16C.pdf},
+  rating = {0},
+  read = {Yes},
+  uri = {papers3://publication/doi/10.1145/1851182.1851192},
+  file = {/Users/bspang/Zotero/storage/MD8CUDSU/2ACFE072-79B9-47D6-839E-2C2C30D142C3.pdf;/Users/bspang/Zotero/storage/RHKQYN9K/C336A039-BB5E-4A72-8DF1-D2741289F16C.pdf}
+}
+
+@article{AYS+a,
+  title = {{{pFabric}}: {{Minimal Near-Optimal Datacenter Transport}}},
+  author = {Alizadeh, Mohammad and Yang, Shuang and Sharif, Milad and Katti, Sachin and McKeown, Nick and Prabhakar, Balaji and Shenker, Scott},
+  pages = {12},
+  abstract = {In this paper we present pFabric, a minimalistic datacenter transport design that provides near theoretically optimal flow completion times even at the 99th percentile for short flows, while still minimizing average flow completion time for long flows. Moreover, pFabric delivers this performance with a very simple design that is based on a key conceptual insight: datacenter transport should decouple flow scheduling from rate control. For flow scheduling, packets carry a single priority number set independently by each flow; switches have very small buffers and implement a very simple priority-based scheduling/dropping mechanism. Rate control is also correspondingly simpler; flows start at line rate and throttle back only under high and persistent packet loss. We provide theoretical intuition and show via extensive simulations that the combination of these two simple mechanisms is sufficient to provide near-optimal performance.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/CAVDS7MC/Alizadeh et al. - pFabric Minimal Near-Optimal Datacenter Transport.pdf}
+}
+
+@article{BDG+2014,
+  title = {P4: Programming Protocol-Independent Packet Processors},
+  shorttitle = {P4},
+  author = {Bosshart, Pat and Daly, Dan and Gibb, Glen and Izzard, Martin and McKeown, Nick and Rexford, Jennifer and Schlesinger, Cole and Talayco, Dan and Vahdat, Amin and Varghese, George and Walker, David},
+  year = {2014},
+  month = jul,
+  journal = {ACM SIGCOMM Computer Communication Review},
+  volume = {44},
+  number = {3},
+  pages = {87--95},
+  issn = {0146-4833},
+  doi = {10.1145/2656877.2656890},
+  url = {https://dl.acm.org/doi/10.1145/2656877.2656890},
+  urldate = {2022-10-17},
+  abstract = {P4 is a high-level language for programming protocol-independent packet processors. P4 works in conjunction with SDN control protocols like OpenFlow. In its current form, OpenFlow explicitly specifies protocol headers on which it operates. This set has grown from 12 to 41 fields in a few years, increasing the complexity of the specification while still not providing the flexibility to add new headers. In this paper we propose P4 as a strawman proposal for how OpenFlow should evolve in the future. We have three goals: (1) Reconfigurability in the field: Programmers should be able to change the way switches process packets once they are deployed. (2) Protocol independence: Switches should not be tied to any specific network protocols. (3) Target independence: Programmers should be able to describe packetprocessing functionality independently of the specifics of the underlying hardware. As an example, we describe how to use P4 to configure a switch to add a new hierarchical label.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/L8K4Z5UT/Bosshart et al. - 2014 - P4 programming protocol-independent packet proces.pdf}
+}
+
+@article{BO,
+  title = {Bottleneck {{Routing Games}} in {{Communication Networks}}},
+  author = {Banner, Ron and Orda, Ariel},
+  pages = {14},
+  abstract = {We consider routing games where the performance of each user is dictated by the worst (bottleneck) element it employs. We are given a network, finitely many (selfish) users, each associated with a positive flow demand, and a load-dependent performance function for each network element; the social (i.e., system) objective is to optimize the performance of the worst element in the network (i.e., the network bottleneck). Although we show that such "bottleneck" routing games appear in a variety of practical scenarios, they have not been considered yet. Accordingly, we study their properties, considering two routing scenarios, namely when a user can split its traffic over more than one path (splittable bottleneck game) and when it cannot (unsplittable bottleneck game). First, we prove that, for both splittable and unsplittable bottleneck games, there is a (not necessarily unique) Nash equilibrium. Then, we consider the rate of convergence to a Nash equilibrium in each game. Finally, we investigate the efficiency of the Nash equilibria in both games with respect to the social optimum; specifically, while for both games we show that the price of anarchy is unbounded, we identify for each game conditions under which Nash equilibria are socially optimal.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/KKWVDPL6/Banner and Orda - Bottleneck Routing Games in Communication Networks.pdf}
+}
+
+@techreport{FRHB2013,
+  type = {Request for {{Comments}}},
+  title = {{{TCP Extensions}} for {{Multipath Operation}} with {{Multiple Addresses}}},
+  author = {Ford, Alan and Raiciu, Costin and Handley, Mark J. and Bonaventure, Olivier},
+  year = {2013},
+  month = jan,
+  number = {RFC 6824},
+  institution = {{Internet Engineering Task Force}},
+  doi = {10.17487/RFC6824},
+  url = {https://datatracker.ietf.org/doc/rfc6824},
+  urldate = {2022-10-14},
+  abstract = {TCP/IP communication is currently restricted to a single path per connection, yet multiple paths often exist between peers. The simultaneous use of these multiple paths for a TCP/IP session would improve resource usage within the network and, thus, improve user experience through higher throughput and improved resilience to network failure. Multipath TCP provides the ability to simultaneously use multiple paths between peers. This document presents a set of extensions to traditional TCP to support multipath operation. The protocol offers the same type of service to applications as TCP (i.e., reliable bytestream), and it provides the components necessary to establish and use multiple TCP flows across potentially disjoint paths. This document defines an Experimental Protocol for the Internet community.},
+  file = {/Users/bspang/Zotero/storage/MNISNL79/Ford et al_2013_TCP Extensions for Multipath Operation with Multiple Addresses.pdf}
+}
+
+@article{GJN,
+  title = {Understanding {{Network Failures}} in {{Data Centers}}: {{Measurement}}, {{Analysis}}, and {{Implications}}},
+  author = {Gill, Phillipa and Jain, Navendu and Nagappan, Nachiappan},
+  pages = {12},
+  abstract = {We present the first large-scale analysis of failures in a data center network. Through our analysis, we seek to answer several fundamental questions: which devices/links are most unreliable, what causes failures, how do failures impact network traffic and how effective is network redundancy? We answer these questions using multiple data sources commonly collected by network operators. The key findings of our study are that (1) data center networks show high reliability, (2) commodity switches such as ToRs and AggS are highly reliable, (3) load balancers dominate in terms of failure occurrences with many short-lived software related faults, (4) failures have potential to cause loss of many small packets such as keep alive messages and ACKs, and (5) network redundancy is only 40\% effective in reducing the median impact of failure.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/YU584EDY/Gill et al. - Understanding Network Failures in Data Centers Me.pdf}
+}
+
+@article{KKSB2007,
+  title = {Dynamic Load Balancing without Packet Reordering},
+  author = {Kandula, Srikanth and Katabi, Dina and Sinha, Shantanu and Berger, Arthur},
+  year = {2007},
+  month = mar,
+  journal = {ACM SIGCOMM Computer Communication Review},
+  volume = {37},
+  number = {2},
+  pages = {51--62},
+  issn = {0146-4833},
+  doi = {10.1145/1232919.1232925},
+  url = {https://dl.acm.org/doi/10.1145/1232919.1232925},
+  urldate = {2022-09-30},
+  abstract = {Dynamic load balancing is a popular recent technique that protects ISP networks from sudden congestion caused by load spikes or link failures. Dynamic load balancing protocols, however, require schemes for splitting traffic across multiple paths at a fine granularity. Current splitting schemes present a tussle between slicing granularity and packet reordering. Splitting traffic at the granularity of packets quickly and accurately assigns the desired traffic share to each path, but can reorder packets within a TCP flow, confusing TCP congestion control. Splitting traffic at the granularity of a flow avoids packet reordering but may overshoot the desired shares by up to 60\% in dynamic environments, resulting in low end-to-end network goodput.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/SHXRYVB4/Kandula et al. - 2007 - Dynamic load balancing without packet reordering.pdf}
+}
+
+@inproceedings{KMT2007a,
+  title = {Path {{Selection}} and {{Multipath Congestion Control}}},
+  booktitle = {{{IEEE INFOCOM}} 2007 - 26th {{IEEE International Conference}} on {{Computer Communications}}},
+  author = {Key, P. and Massoulie, L. and Towsley, D.},
+  year = {2007},
+  month = may,
+  pages = {143--151},
+  issn = {0743-166X},
+  doi = {10.1109/INFCOM.2007.25},
+  abstract = {In this paper we investigate the potential benefits of coordinated congestion control for multipath data transfers, and contrast with uncoordinated control. For static random path selections, we show the worst-case throughput performance of uncoordinated control behaves as if each user had but a single path (scaling like log(log(N))/log(N) where N is the system size, measured in number of resources). Whereas coordinated control gives a throughput allocation bounded away from zero, improving on both uncoordinated control and on the greedy-least loaded path selection of e.g. Mitzenmacher. We then allow users to change their set of routes and introduce the notion of a Nash equilibrium. We show that with RTT bias (as in TCP Reno), uncoordinated control can lead to inefficient equilibria. With no RTT bias, both uncoordinated or coordinated Nash equilibria correspond to desirable welfare maximising states. Moreover, simple path reselection polices that shift to paths with higher net benefit can find these states.},
+  keywords = {Communication system control,Communications Society,Control systems,Nash equilibrium,Routing,Size control,Size measurement,Throughput,Transport protocols,USA Councils},
+  file = {/Users/bspang/Zotero/storage/RKC4TLH7/Key et al_2007_Path Selection and Multipath Congestion Control.pdf;/Users/bspang/Zotero/storage/W7S2NJFB/4215607.html}
+}
+
+@article{KV2005,
+  title = {Stability of End-to-End Algorithms for Joint Routing and Rate Control},
+  author = {Kelly, Frank and Voice, Thomas},
+  year = {2005},
+  month = apr,
+  journal = {ACM SIGCOMM Computer Communication Review},
+  volume = {35},
+  number = {2},
+  pages = {5--12},
+  issn = {0146-4833},
+  doi = {10.1145/1064413.1064415},
+  url = {https://dl.acm.org/doi/10.1145/1064413.1064415},
+  urldate = {2022-10-14},
+  abstract = {Dynamic multi-path routing has the potential to improve the reliability and performance of a communication network, but carries a risk. Routing needs to respond quickly to achieve the potential benefits, but not so quickly that the network is destabilized. This paper studies how rapidly routing can respond, without compromising stability.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/NQMMRZQQ/Kelly and Voice - 2005 - Stability of end-to-end algorithms for joint routi.pdf}
+}
+
+@inproceedings{KVHD2014,
+  title = {{{FlowBender}}: {{Flow-level Adaptive Routing}} for {{Improved Latency}} and {{Throughput}} in {{Datacenter Networks}}},
+  shorttitle = {{{FlowBender}}},
+  booktitle = {Proceedings of the 10th {{ACM International}} on {{Conference}} on Emerging {{Networking Experiments}} and {{Technologies}}},
+  author = {Kabbani, Abdul and Vamanan, Balajee and Hasan, Jahangir and Duchene, Fabien},
+  year = {2014},
+  month = dec,
+  pages = {149--160},
+  publisher = {{ACM}},
+  address = {{Sydney Australia}},
+  doi = {10.1145/2674005.2674985},
+  url = {https://dl.acm.org/doi/10.1145/2674005.2674985},
+  urldate = {2022-09-30},
+  abstract = {Datacenter networks provide high path diversity for traffic between machines. Load balancing traffic across these paths is important for both, latency- and throughput-sensitive applications. The standard load balancing techniques used today obliviously hash a flow to a random path. When long flows collide on the same path, this might lead to long lasting congestion while other paths could be underutilized, degrading performance of other flows as well. Recent proposals to address this shortcoming incur significant implementation complexity at the host that would actually slow down short flows (MPTCP), depend on relatively slow centralized controllers for rerouting large congesting flows (Hedera), or require custom switch hardware, hindering near-term deployment (DeTail).},
+  isbn = {978-1-4503-3279-8},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/PDE3W4DJ/Kabbani et al. - 2014 - FlowBender Flow-level Adaptive Routing for Improv.pdf}
+}
+
+@inproceedings{LSBA2021,
+  title = {Staying {{Alive}}: {{Connection Path Reselection}} at the {{Edge}}},
+  booktitle = {{{NSDI}} 2021},
+  author = {Landa, Raul and Saino, Lorenzo and Buytenhek, Lennert and Ara{\'u}jo, Jo{\~a}o Taveira},
+  year = {2021},
+  month = apr,
+  pages = {20},
+  abstract = {Internet path failure recovery relies on routing protocols, such as BGP. However, routing can take minutes to detect failures and reconverge; in some cases, like partial failures or severe performance degradation, it may never intervene. For large scale network outages, such as those caused by route leaks, bypassing the affected party completely may be the only effective solution.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/F92JFGMP/Landa et al. - Staying Alive Connection Path Reselection at the .pdf}
+}
+
+@article{Mathis:1997dy,
+  title = {The Macroscopic Behavior of the {{TCP}} Congestion Avoidance Algorithm.},
+  author = {Mathis, Matthew and Semke, Jeffrey and Mahdavi, Jamshid and Ott, Teunis},
+  year = {1997},
+  journal = {Computer Communication Review},
+  volume = {27},
+  number = {3},
+  pages = {67--82},
+  doi = {10.1145/263932.264023},
+  url = {http://portal.acm.org/citation.cfm?doid=263932.264023},
+  date-added = {2015-10-08T17:55:42GMT},
+  date-modified = {2017-07-06T15:52:50GMT},
+  langid = {english},
+  local-url = {file://localhost/Users/bspang/Dropbox/Library.papers3/Files/E7/E77A0608-A323-4E1C-8B2D-14CC2091E3E3.pdf},
+  rating = {0},
+  uri = {papers3://publication/doi/10.1145/263932.264023},
+  file = {/Users/bspang/Zotero/storage/JLDHFXRJ/Mathis et al_1997_The macroscopic behavior of the TCP congestion avoidance algorithm.pdf}
+}
+
+@article{Mit2001,
+  title = {The Power of Two Choices in Randomized Load Balancing},
+  author = {Mitzenmacher, M.},
+  year = {Oct./2001},
+  journal = {IEEE Transactions on Parallel and Distributed Systems},
+  volume = {12},
+  number = {10},
+  pages = {1094--1104},
+  issn = {10459219},
+  doi = {10.1109/71.963420},
+  url = {http://ieeexplore.ieee.org/document/963420/},
+  urldate = {2022-09-27},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/MWP6HT9Q/Mitzenmacher - 2001 - The power of two choices in randomized load balanc.pdf}
+}
+
+@inproceedings{MXVM2018,
+  title = {A {{Large Scale Study}} of {{Data Center Network Reliability}}},
+  booktitle = {Proceedings of the {{Internet Measurement Conference}} 2018},
+  author = {Meza, Justin and Xu, Tianyin and Veeraraghavan, Kaushik and Mutlu, Onur},
+  year = {2018},
+  month = oct,
+  pages = {393--407},
+  publisher = {{ACM}},
+  address = {{Boston MA USA}},
+  doi = {10.1145/3278532.3278566},
+  url = {https://dl.acm.org/doi/10.1145/3278532.3278566},
+  urldate = {2022-10-03},
+  abstract = {The ability to tolerate, remediate, and recover from network incidents (caused by device failures and fiber cuts, for example) is critical for building and operating highly-available web services. Achieving fault tolerance and failure preparedness requires system architects, software developers, and site operators to have a deep understanding of network reliability at scale, along with its implications on the software systems that run in data centers. Unfortunately, little has been reported on the reliability characteristics of large scale data center network infrastructure, let alone its impact on the availability of services powered by software running on that network infrastructure.},
+  isbn = {978-1-4503-5619-0},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/G2FWZ9Y3/Meza et al. - 2018 - A Large Scale Study of Data Center Network Reliabi.pdf}
+}
+
+@inproceedings{QCY+2022,
+  title = {{{PLB}}: Congestion Signals Are Simple and Effective for Network Load Balancing},
+  shorttitle = {{{PLB}}},
+  booktitle = {Proceedings of the {{ACM SIGCOMM}} 2022 {{Conference}}},
+  author = {Qureshi, Mubashir Adnan and Cheng, Yuchung and Yin, Qianwen and Fu, Qiaobin and Kumar, Gautam and Moshref, Masoud and Yan, Junhua and Jacobson, Van and Wetherall, David and Kabbani, Abdul},
+  year = {2022},
+  month = aug,
+  series = {{{SIGCOMM}} '22},
+  pages = {207--218},
+  publisher = {{Association for Computing Machinery}},
+  address = {{New York, NY, USA}},
+  doi = {10.1145/3544216.3544226},
+  url = {https://doi.org/10.1145/3544216.3544226},
+  urldate = {2022-08-22},
+  abstract = {We present a new, host-based design for link load balancing and report the first experiences of link imbalance in datacenters. Our design, PLB (Protective Load Balancing), builds on transport protocols and ECMP/WCMP to reduce network hotspots. PLB randomly changes the paths of connections that experience congestion, preferring to repath after idle periods to minimize packet reordering. It repaths a connection by changing the IPv6 Flow Label on its packets, which switches include as part of ECMP/WCMP. Across hosts, this action drives down hotspots in the network, and lowers the latency of RPCs. PLB is used fleetwide at Google for TCP and Pony Express traffic. We could deploy it when other designs were infeasible because PLB requires only small transport modifications and switch configuration changes, and is backwards-compatible. It has produced excellent gains: the median utilization imbalance of highly-loaded ToR uplinks in Google datacenters fell by 60\%, packet drops correspondingly fell by 33\%, and the tail latency (99p) of small RPCs fell by 20\%. PLB is also a general solution that works for settings from datacenters to backbone networks, as well as different transports.},
+  isbn = {978-1-4503-9420-8},
+  keywords = {congestion control,datacenter fabric,distributed,load balancing},
+  file = {/Users/bspang/Zotero/storage/5VGSXZTC/Qureshi et al. - 2022 - PLB congestion signals are simple and effective f.pdf;/Users/bspang/Zotero/storage/PX2MTKZ9/3544216.3544226.pdf;/Users/bspang/Zotero/storage/Q3G85KET/Qureshi et al_2022_PLB.pdf}
+}
+
+@misc{SAM2021,
+  title = {Updating the {{Theory}} of {{Buffer Sizing}}},
+  author = {Spang, Bruce and Arslan, Serhat and McKeown, Nick},
+  year = {2021},
+  month = sep,
+  number = {arXiv:2109.11693},
+  eprint = {2109.11693},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  url = {http://arxiv.org/abs/2109.11693},
+  urldate = {2022-10-18},
+  abstract = {Routers have packet buffers to reduce packet drops during times of congestion. It is important to correctly size the buffer: make it too small, and packets are dropped unnecessarily and the link may be underutilized; make it too big, and packets may wait for a long time, and the router itself may be more expensive to build. Despite its importance, there are few guidelines for picking the buffer size. The two most well-known rules only apply to long-lived TCP Reno flows; either for a network carrying a single TCP Reno flow (the buffer size should equal the bandwidth-delay product, or \$BDP\$) or for a network carrying \$n\$ TCP Reno flows (the buffer size should equal \$BDP/\textbackslash sqrt\{n\}\$). Since these rules were introduced, TCP Reno has been replaced by newer algorithms as the default congestion control algorithm in all major operating systems, yet little has been written about how the rules need to change. This paper revisits both rules. For the single flow case, we generalize the \$BDP\$ rule to account for changes to TCP, such as Proportional Rate Reduction (PRR), and the introduction of new algorithms including Cubic and BBR. We find that buffers can be made 60-75\% smaller for newer algorithms. For the multiple flow case, we show that the square root of \$n\$ rule holds under a broader set of assumptions than previously known, including for these new congestion control algorithms. We also demonstrate situations where the square root of \$n\$ rule does not hold, including for unfair flows and certain settings with ECN. We validate our results by precisely measuring the time series of buffer occupancy in a real network, and comparing it to the per-packet window size.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Networking and Internet Architecture,Computer Science - Performance},
+  file = {/Users/bspang/Zotero/storage/EQC3CXP2/Spang et al_2021_Updating the Theory of Buffer Sizing.pdf;/Users/bspang/Zotero/storage/2HQLFPJ4/2109.html}
+}
+
+@techreport{SF2010,
+  type = {Internet {{Draft}}},
+  title = {{{MPTCP Application Interface Considerations}}},
+  author = {Scharf, Michael and Ford, Alan},
+  year = {2010},
+  month = nov,
+  number = {draft-scharf-mptcp-api-04},
+  institution = {{Internet Engineering Task Force}},
+  url = {https://datatracker.ietf.org/doc/draft-scharf-mptcp-api-01},
+  urldate = {2022-10-15},
+  abstract = {Multipath TCP (MPTCP) adds the capability of using multiple paths to a regular TCP session. Even though it is designed to be totally backward compatible to applications, the data transport differs compared to regular TCP, and there are several additional degrees of freedom that applications may wish to exploit. This document summarizes the impact that MPTCP may have on applications, such as changes in performance. Furthermore, it discusses compatibility issues of MPTCP in combination with non-MPTCP-aware applications. Finally, the document describes a basic application interface for MPTCP-aware applications that provides access to multipath address information and a level of control equivalent to regular TCP.}
+}
+
+@inproceedings{SSIF2013,
+  title = {Scalable, Optimal Flow Routing in Datacenters via Local Link Balancing},
+  booktitle = {Proceedings of the Ninth {{ACM}} Conference on {{Emerging}} Networking Experiments and Technologies},
+  author = {Sen, Siddhartha and Shue, David and Ihm, Sunghwan and Freedman, Michael J.},
+  year = {2013},
+  month = dec,
+  pages = {151--162},
+  publisher = {{ACM}},
+  address = {{Santa Barbara California USA}},
+  doi = {10.1145/2535372.2535397},
+  url = {https://dl.acm.org/doi/10.1145/2535372.2535397},
+  urldate = {2022-09-30},
+  abstract = {Datacenter networks should support high network utilization. Yet today's routing is typically load agnostic, so large flows can starve other flows if routed through overutilized links. Even recent proposals like centralized scheduling or end-host multi-pathing give suboptimal throughput, and they suffer from poor scalability and other limitations.},
+  isbn = {978-1-4503-2101-3},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/M6N4H93E/Sen et al. - 2013 - Scalable, optimal flow routing in datacenters via .pdf}
+}
+
+@inproceedings{SSIF2013a,
+  title = {Scalable, Optimal Flow Routing in Datacenters via Local Link Balancing},
+  booktitle = {Proceedings of the Ninth {{ACM}} Conference on {{Emerging}} Networking Experiments and Technologies},
+  author = {Sen, Siddhartha and Shue, David and Ihm, Sunghwan and Freedman, Michael J.},
+  year = {2013},
+  month = dec,
+  pages = {151--162},
+  publisher = {{ACM}},
+  address = {{Santa Barbara California USA}},
+  doi = {10.1145/2535372.2535397},
+  url = {https://dl.acm.org/doi/10.1145/2535372.2535397},
+  urldate = {2022-10-17},
+  abstract = {Datacenter networks should support high network utilization. Yet today's routing is typically load agnostic, so large flows can starve other flows if routed through overutilized links. Even recent proposals like centralized scheduling or end-host multi-pathing give suboptimal throughput, and they suffer from poor scalability and other limitations.},
+  isbn = {978-1-4503-2101-3},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/F7D2IGZW/Sen et al. - 2013 - Scalable, optimal flow routing in datacenters via .pdf}
+}
+
+@article{VPA+,
+  title = {Let It {{Flow}}: {{Resilient Asymmetric Load Balancing}} with {{Flowlet Switching}}},
+  author = {Vanini, Erico and Pan, Rong and Alizadeh, Mohammad and Taheri, Parvin and Edsall, Tom},
+  pages = {15},
+  abstract = {Datacenter networks require efficient multi-path load balancing to achieve high bisection bandwidth. Despite much progress in recent years towards addressing this challenge, a load balancing design that is both simple to implement and resilient to network asymmetry has remained elusive. In this paper, we show that flowlet switching, an idea first proposed more than a decade ago, is a powerful technique for resilient load balancing with asymmetry. Flowlets have a remarkable elasticity property: their size changes automatically based on traffic conditions on their path. We use this insight to develop LetFlow, a very simple load balancing scheme that is resilient to asymmetry. LetFlow simply picks paths at random for flowlets and lets their elasticity naturally balance the traffic on different paths. Our extensive evaluation with real hardware and packet-level simulations shows that LetFlow is very effective. Despite being much simpler, it performs significantly better than other traffic oblivious schemes like WCMP and Presto in asymmetric scenarios, while achieving average flow completions time within 10-20\% of CONGA in testbed experiments and 2\texttimes{} of CONGA in simulated topologies with large asymmetry and heavy traffic load.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/GSC2VJL4/Vanini et al. - Let it Flow Resilient Asymmetric Load Balancing w.pdf}
+}
+
+@inproceedings{WRGH2011,
+  title = {Design, Implementation and Evaluation of Congestion Control for Multipath {{TCP}}},
+  booktitle = {{{NSDI}}},
+  author = {Wischik, Damon and Raiciu, Costin and Greenhalgh, Adam and Handley, Mark},
+  year = {2011},
+  pages = {14},
+  abstract = {Multipath TCP, as proposed by the IETF working group mptcp, allows a single data stream to be split across multiple paths. This has obvious benefits for reliability, and it can also lead to more efficient use of networked resources. We describe the design of a multipath congestion control algorithm, we implement it in Linux, and we evaluate it for multihomed servers, data centers and mobile clients. We show that some `obvious' solutions for multipath congestion control can be harmful, but that our algorithm improves throughput and fairness compared to single-path TCP. Our algorithm is a drop-in replacement for TCP, and we believe it is safe to deploy.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/BWM73WIB/Wischik et al. - Design, implementation and evaluation of congestio.pdf}
+}
+
+@inproceedings{WX2014,
+  title = {Expeditus: {{Distributed Load Balancing}} with {{Global Congestion Information}} in {{Data Center Networks}}},
+  shorttitle = {Expeditus},
+  booktitle = {Proceedings of the 2014 {{CoNEXT}} on {{Student Workshop}}},
+  author = {Wang, Peng and Xu, Hong},
+  year = {2014},
+  month = dec,
+  series = {{{CoNEXT Student Workshop}} '14},
+  pages = {1--3},
+  publisher = {{Association for Computing Machinery}},
+  address = {{New York, NY, USA}},
+  doi = {10.1145/2680821.2680825},
+  url = {https://doi.org/10.1145/2680821.2680825},
+  urldate = {2022-10-17},
+  abstract = {We propose Expeditus, a distributed congestion-aware load balancing mechanism for Clos data center networks. The fundamental challenge in making load balancing congestion-aware is, how to collect real-time (in the order of RTT) congestion information from all possible paths, in a scalable and efficient manner. A naive solution requires each edge switch to have congestion information for O(k\^4) paths for a k-pod fat-tree, and recent proposals like CONGA only work for the two-tier leaf-spine topology. Expeditus relies on scalable one-hop information collection, where a switch only monitors buffer occupancy from and to its k/2 upstream neighbors, respectively. It further uses a two-stage path selection mechanism to aggregate relevant congestion information across switches and make near-optimal path selection decisions during TCP handshaking. We outline the basic idea of these mechanisms in this extended abstract. Preliminary ns-3 simulations demonstrate that Expeditus outperforms ECMP in fat-tree networks, and outperforms CONGA significantly in leaf-spine topology.},
+  isbn = {978-1-4503-3282-8},
+  keywords = {congestion control,datacenter network,distributed,load balancing}
+}
+
+@inproceedings{YCH2018,
+  title = {A {{Weighted ECMP Load Balancing Scheme}} for {{Data Centers Using P4 Switches}}},
+  booktitle = {2018 {{IEEE}} 7th {{International Conference}} on {{Cloud Networking}} ({{CloudNet}})},
+  author = {Ye, Jin-Li and Chen, Chien and Huang Chu, Yu},
+  year = {2018},
+  month = oct,
+  pages = {1--4},
+  doi = {10.1109/CloudNet.2018.8549549},
+  abstract = {This paper proposes a weighted Equal-cost multipath (W-ECMP) scheme in datacenters using a Programmable Data plane. Nowadays, data center networks face ongoing challenges for higher performance and greater efficiency. Equal-cost multi-path (ECMP) routing, the most common load-balancing scheme used on data center networks, tries to balance the traffic without awareness of the network congestion. To overcome this problem, CONGA and HULA are proposed successively. CONGA has implemented customized ASIC as a part of the switch fabric to collect congestion information distributively. Nevertheless, ASICs solution shows a lack of scalability and flexibility. However, although HULA solves some problems of CONGA by using p4 switch, best path selection strategy in HULA only selects and records the best path, which makes it easy to congest the best path, and HULA uses probes that waste bandwidth and deteriorate the performance. To solve the problems of HULA, W-ECMP chooses a path with a weighted probability to avoid congesting a path quickly. W-ECMP encapsulates the path congestion information into the normal traffic similar to the concept of Inband Network Telemetry (INT) in P4, which increases updating speed as the network loading increases. From experimental results, W - ECMP performs better than HULA does in average flow completion time (FCT).},
+  keywords = {Bandwidth,data center load balancing,Data centers,Load management,Loading,network congestion,Probes,programmable data plane,Protocols,Topology,weighted-ecmp},
+  file = {/Users/bspang/Zotero/storage/JPEVGQ2X/8549549.html}
+}
+
+@inproceedings{ZM2004,
+  title = {Designing a {{Predictable Internet Backbone Network}}},
+  booktitle = {Hotnets {{III}}},
+  author = {{Zhang-Shen}, Rui and McKeown, Nick},
+  year = {2004},
+  month = nov,
+  pages = {6},
+  abstract = {Designing a backbone network is hard. On one hand, users expect the network to have very high availability, little or no congestion, and hence little or no queueing delay. On the other hand, traffic conditions are always changing. Over time usage patterns evolve, customers come and go, new applications are deployed, and the traffic matrices of one year are quite different from the next. Yet the network operator must design for low congestion over the multiple years that the network is in operation. Harder still, the network must be designed to work well under a variety of link and router failures. It is not surprising that most networks today are enormously overprovisioned, with typical utilizations around 10\%. In this paper we propose that backbone networks use Valiant Load-balancing over a fully-connected logical mesh. This is quite a radical departure from the way backbones are built today, and raises as many questions as it answers. But it leads to a surprisingly simple architecture, with predictable and guaranteed performance, even when traffic matrices change and when links and routers fail. It is provably the lowest capacity network with these characteristics. In addition, it provides fast convergence after failure, making it possible to support real-time applications.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/D6LVQBG9/Zhang-Shen and McKeown - Designing a Predictable Internet Backbone Network.pdf}
+}
+
+@misc{zotero-11176,
+  title = {Use {{Multipath TCP}} to Create Backup Connections for {{iOS}}},
+  journal = {Apple Support},
+  url = {https://support.apple.com/en-us/HT201373},
+  urldate = {2022-10-14},
+  abstract = {If you're a network administrator, you can use Multipath TCP with iOS to strengthen connectivity to your destination host.},
+  langid = {english},
+  file = {/Users/bspang/Zotero/storage/9PFRL78I/HT201373.html}
+}
+
+@misc{zotero-11180,
+  title = {The {{BIRD Internet Routing Daemon Project}}},
+  url = {https://bird.network.cz/?get_doc&v=20&f=bird-6.html},
+  urldate = {2022-10-14}
+}
+
+@misc{zotero-11209,
+  title = {48322 {$\cdot$} {{Analysis Report}}},
+  url = {https://ablaze.prod.netflix.com/tests/48322/analysis/report.streaming_qoe_report?schedule=13080&instance=249749},
+  urldate = {2022-10-18},
+  file = {/Users/bspang/Zotero/storage/8YB88ZCC/report.html}
+}
+
